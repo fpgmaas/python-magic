@@ -39,7 +39,7 @@ def get_cmdclass():
 cmdclass = get_cmdclass()
 
 setuptools.setup(
-    name="python-magic",
+    name="python-magic-standalone",
     description="File type identification using libmagic",
     author="Adam Hupp",
     author_email="adam@hupp.org",

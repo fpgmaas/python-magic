@@ -1,3 +1,24 @@
+## ⚠️ Disclaimer
+
+This package **`python-magic-standalone`** is an **unofficial distribution** of [python-magic](https://github.com/ahupp/python-magic).
+It is built directly from [@ddelange’s `abi3-wheels` branch](https://github.com/ddelange/python-magic/tree/abi3-wheels), which is the subject of [open PR #294](https://github.com/ahupp/python-magic/pull/294). It provides prebuilt wheels with libmagic bundled for Windows, macOS, and Linux. 
+
+The sole purpose of this fork is to make the wheels available on PyPI, since the PR has been open for quite a while. Once the open PR is merged, please refer back to `python-magic`.
+
+It can be installed with any of the following commands, depending on the tool you use;
+
+```
+# pip
+pip install python-magic-standalone
+
+# uv
+uv add python-magic-standalone
+
+# poetry
+poetry add python-magic-standalone
+```
+
+
 # python-magic
 [![PyPI version](https://badge.fury.io/py/python-magic.svg)](https://badge.fury.io/py/python-magic)
 [![ci](https://github.com/ahupp/python-magic/actions/workflows/ci.yml/badge.svg)](https://github.com/ahupp/python-magic/actions/workflows/ci.yml)
